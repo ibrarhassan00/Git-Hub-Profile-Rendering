@@ -1,0 +1,17 @@
+.container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px auto;
+
+}
+
+  @media screen and (max-width: 600px) {
+        .container{
+max-width: 250px;
+ gap: 20px;
+        }
+    }
